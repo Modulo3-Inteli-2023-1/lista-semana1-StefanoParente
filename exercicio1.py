@@ -5,11 +5,6 @@
 
 
 # Crie a função que será avaliada no exercício aqui
-from socket import SOMAXCONN
-
-
-a = int(input("primeiro numero: "))
-b = int(input("segundo numero: "))
 
 def op(num1, num2):
     soma = (num1 + num2)
@@ -22,9 +17,6 @@ def op(num1, num2):
 
     return soma, sub, div, mult
     
-
-print(op(a, b))
-
 
 # Teste a sua função aqui (caso ache necessário)
 
